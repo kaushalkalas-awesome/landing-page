@@ -1,3 +1,24 @@
-.background-increase{
-    height: 450px;
+.card-img-fixed{
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+h1{
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-weight: 700;
+}
+
+.custom-hover-card{
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-hover-card:hover {
+  z-index: 10;
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.15);
 }
