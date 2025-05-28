@@ -22,3 +22,8 @@ h1{
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 16px 28px rgba(0, 0, 0, 0.15);
 }
+
+.btn{
+  background-color: #FF9900;
+  color: 	#f2f2f2;
+}
